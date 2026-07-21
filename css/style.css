@@ -61,6 +61,18 @@ p { margin: 0 0 16px; color: var(--grey); }
 .btn-outline-light:hover { border-color: var(--gold-light); color: var(--gold-light); background: rgba(255,156,61,0.1); }
 .btn-lg { padding: 17px 34px; font-size: 1.02rem; }
 .btn-block { width: 100%; }
+.btn:not(.btn-whatsapp)::after {
+  content: ""; width: 15px; height: 15px; flex-shrink: 0; background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 5l7 7-7 7'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 5l7 7-7 7'/%3E%3C/svg%3E") no-repeat center / contain;
+  transition: transform 0.2s ease;
+}
+.btn:not(.btn-whatsapp):hover::after { transform: translateX(3px); }
+.btn-whatsapp::before {
+  content: ""; width: 15px; height: 15px; flex-shrink: 0; background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.75 13.4L3 21l3.72-1.28a8.9 8.9 0 0 0 4.32 1.1h.01A8.94 8.94 0 0 0 20 12.02a8.86 8.86 0 0 0-2.4-5.7Z'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.75 13.4L3 21l3.72-1.28a8.9 8.9 0 0 0 4.32 1.1h.01A8.94 8.94 0 0 0 20 12.02a8.86 8.86 0 0 0-2.4-5.7Z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
 
 /* ===================== HEADER ===================== */
 .site-header {
@@ -107,6 +119,27 @@ p { margin: 0 0 16px; color: var(--grey); }
   border: 1px solid rgba(244,111,41,0.18); background: rgba(255,255,255,0.6);
   color: var(--navy); padding: 8px 16px; border-radius: 999px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.01em;
 }
+.pill--label {
+  background: var(--white); border-color: var(--border); color: var(--gold);
+  font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.72rem; gap: 8px;
+}
+.pill--label::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+.pill--icon { gap: 10px; padding-left: 6px; }
+.pill-icon-badge {
+  width: 22px; height: 22px; border-radius: 50%; background: var(--gold-grad);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #fff;
+}
+.pill-icon-badge svg { width: 12px; height: 12px; }
+.feature-badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  border: 1px solid var(--border); background: var(--white);
+  padding: 8px 16px 8px 8px; border-radius: 999px; font-size: 0.85rem; font-weight: 700; color: var(--navy);
+}
+.feature-badge-icon {
+  width: 30px; height: 30px; border-radius: 50%; background: var(--peach-tint);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold);
+}
+.feature-badge-icon svg { width: 15px; height: 15px; }
 .page-hero h1 { color: var(--navy); font-size: clamp(2.2rem, 4.5vw, 3.5rem); letter-spacing: -0.02em; max-width: 780px; }
 .accent-text { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-sub { color: var(--grey); font-size: 1.1rem; max-width: 640px; margin-bottom: 30px; }
