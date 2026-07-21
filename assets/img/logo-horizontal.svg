@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" role="img" aria-label="Zephyr Solutions">
+  <defs>
+    <linearGradient id="navyGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c3d6e"/>
+      <stop offset="100%" stop-color="#0c1f3d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c073"/>
+      <stop offset="100%" stop-color="#b8862f"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0,5)">
+    <circle cx="45" cy="45" r="43" fill="url(#navyGrad2)"/>
+    <g fill="none" stroke="url(#goldGrad2)" stroke-width="4" stroke-linecap="round">
+      <path d="M20 35 C36 35 39 26 51 26 C60 26 65 32 65 38 C65 44 60 47 54 47 C48 47 45 44 45 39"/>
+      <path d="M20 47 C39 47 44 58 57 58 C65 58 69 53 69 47" opacity="0.85"/>
+      <path d="M20 59 C33 59 37 65 46 65" opacity="0.6"/>
+    </g>
+  </g>
+  <g transform="translate(104,0)">
+    <text x="0" y="46" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="38" letter-spacing="0.5" fill="#0c1f3d">ZEPHYR</text>
+    <text x="2" y="72" font-family="Arial, sans-serif" font-weight="600" font-size="16" letter-spacing="5" fill="#b8862f">SOLUTIONS</text>
+  </g>
+</svg>

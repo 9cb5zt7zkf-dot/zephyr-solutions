@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" preserveAspectRatio="none" role="img" aria-hidden="true">
+  <g fill="#e8c073">
+    <rect x="0" y="90" width="40" height="70"/>
+    <rect x="45" y="60" width="30" height="100"/>
+    <rect x="80" y="100" width="45" height="60"/>
+    <rect x="130" y="70" width="25" height="90"/>
+    <polygon points="175,160 175,50 190,20 205,50 205,160"/>
+    <rect x="215" y="85" width="35" height="75"/>
+    <rect x="255" y="55" width="28" height="105"/>
+    <rect x="290" y="95" width="40" height="65"/>
+    <rect x="335" y="40" width="20" height="120"/>
+    <rect x="360" y="75" width="45" height="85"/>
+    <rect x="410" y="100" width="30" height="60"/>
+    <rect x="445" y="65" width="35" height="95"/>
+    <polygon points="490,160 490,30 508,0 526,30 526,160"/>
+    <rect x="535" y="90" width="30" height="70"/>
+    <rect x="570" y="55" width="40" height="105"/>
+    <rect x="615" y="95" width="25" height="65"/>
+    <rect x="645" y="75" width="35" height="85"/>
+    <rect x="685" y="40" width="22" height="120"/>
+    <rect x="712" y="90" width="45" height="70"/>
+    <rect x="762" y="60" width="30" height="100"/>
+    <polygon points="800,160 800,45 815,18 830,45 830,160"/>
+    <rect x="840" y="95" width="35" height="65"/>
+    <rect x="880" y="70" width="28" height="90"/>
+    <rect x="913" y="100" width="40" height="60"/>
+    <rect x="958" y="55" width="25" height="105"/>
+    <rect x="988" y="85" width="35" height="75"/>
+    <rect x="1028" y="65" width="30" height="95"/>
+    <rect x="1063" y="95" width="45" height="65"/>
+    <rect x="1113" y="75" width="28" height="85"/>
+    <rect x="1146" y="100" width="35" height="60"/>
+  </g>
+</svg>
